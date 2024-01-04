@@ -1,0 +1,23 @@
+.skip a{
+    text-decoration: underline;
+    color: blue;
+}
+
+.skip a:hover{
+  text-decoration: none;
+  color: red;
+}
+
+.offpage{
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+   
+  }
+  .offpage:focus {
+    position: static;
+    width: auto;
+    height: auto;
+  }
